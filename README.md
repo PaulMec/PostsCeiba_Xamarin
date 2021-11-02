@@ -4,10 +4,10 @@ Prueba técnica de publicaciones y escritores en Xamarin Andriod
 Capa de aplicación móvil:
 PostsCeiba (aplicación a correr)
 
-Capa de servicios:
+Capa de servicios (APIREST):
 Services/ServicesCeiba
 
-Consumo de servicios:
+Consumo de servicios (APIREST):
 Services/ServicesCeiba/PublicationsManagement.CS
 Helper (GET, POST, PUT): Services/ServicesCeiba/HttpRequestHelper.CS
 
