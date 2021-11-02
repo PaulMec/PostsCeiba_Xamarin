@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Prueba Xamarin Ceiba</string>
+  <string name="action_settings">Información del dev</string>
+  <string name="Buscar">Buscar</string>
+  <string name="description_image_ceiba">Imagen Ceiba</string>
+  <string name="posts">Publicaciones</string>
+  <string name="users">Usuarios</string>
+  <string name="Back">ATRÁS</string>
+  <string name="txt_no_results">NO SE ENCONTRÓ RESULTADOS CON ANTERIORES CRITERIOS DE BÚSQUEDA</string>
+  <string name="txt_error">Ooops. Error: {0}</string>
+</resources>

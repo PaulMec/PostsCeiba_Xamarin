@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/verdeCeiba"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/principalImage"
+                android:src="@mipmap/ceiba"
+                android:layout_width="@dimen/_200"
+                android:layout_height="@dimen/_200"
+                android:layout_gravity="center"
+                android:contentDescription="@string/description_image_ceiba" />
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/Patients_list_maincontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10"
+            android:layout_marginBottom="@dimen/_10"
+            android:layout_marginLeft="@dimen/_5"
+            android:layout_marginRight="@dimen/_5"
+            android:paddingBottom="@dimen/_10"
+            android:layout_below="@+id/flSearchBar"
+            android:background="@drawable/cardBackgroundCream"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:clipToPadding="false">
+            <ImageView
+                android:id="@+id/btnUsers"
+                android:layout_width="@dimen/_50"
+                android:layout_height="@dimen/_50"
+                android:src="@mipmap/writer2"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/posts"/>
+            <ImageView
+                android:id="@+id/btnPosts"
+                android:layout_width="@dimen/_50"
+                android:layout_height="@dimen/_50"
+                android:src="@mipmap/cuaderno"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/users" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

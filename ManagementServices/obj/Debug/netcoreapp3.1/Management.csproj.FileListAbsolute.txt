@@ -1,0 +1,10 @@
+C:\Source\Ceiba\Management\bin\Debug\netcoreapp3.1\Management.deps.json
+C:\Source\Ceiba\Management\bin\Debug\netcoreapp3.1\Management.dll
+C:\Source\Ceiba\Management\bin\Debug\netcoreapp3.1\Management.pdb
+C:\Source\Ceiba\Management\obj\Debug\netcoreapp3.1\Management.csproj.AssemblyReference.cache
+C:\Source\Ceiba\Management\obj\Debug\netcoreapp3.1\Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Ceiba\Management\obj\Debug\netcoreapp3.1\Management.AssemblyInfoInputs.cache
+C:\Source\Ceiba\Management\obj\Debug\netcoreapp3.1\Management.AssemblyInfo.cs
+C:\Source\Ceiba\Management\obj\Debug\netcoreapp3.1\Management.csproj.CoreCompileInputs.cache
+C:\Source\Ceiba\Management\obj\Debug\netcoreapp3.1\Management.dll
+C:\Source\Ceiba\Management\obj\Debug\netcoreapp3.1\Management.pdb

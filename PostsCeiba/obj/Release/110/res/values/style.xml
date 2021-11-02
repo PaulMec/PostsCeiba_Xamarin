@@ -1,0 +1,1 @@
+<resources><style name="Theme.Custom" parent="android:Theme.DeviceDefault"><item name="android:colorBackground">@android:color/black</item><item name="android:windowBackground">?android:attr/colorBackground</item></style></resources>

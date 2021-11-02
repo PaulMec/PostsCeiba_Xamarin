@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_5"
+        android:paddingBottom="@dimen/_5"
+		android:backgroundTint="@color/grisPrimario"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/_5"
+            android:paddingRight="@dimen/_5"
+            android:layout_gravity="center_horizontal | center"
+            android:textAlignment="center"
+            android:text="Título: Viaje al espacio"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_16"/>
+        <TextView
+            android:id="@+id/tvBody"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Este libro se refiere a un joven que deseaba viajar al espacio"
+            android:textStyle="normal"
+            android:textSize="@dimen/size_13"/>
+    </LinearLayout>
+</LinearLayout>
